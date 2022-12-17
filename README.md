@@ -4,4 +4,3 @@
 - symbol: GT
 - decimals: 18
 - mint: anybody
-- burn: anybody
