@@ -1,1 +1,7 @@
-# erc-20-game-token-sample
+# Game Token
+
+- name: Game Token
+- symbol: GT
+- decimals: 18
+- mint: anybody
+- burn: anybody
