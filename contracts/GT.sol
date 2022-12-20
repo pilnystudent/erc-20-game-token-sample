@@ -16,7 +16,7 @@ contract GT is ERC20{
     }
 
     function mint() external returns(bool) {
-        uint amount = bounty();
+        uint amount = this.bounty();
         lastMint = block.timestamp;
         totalSupply += amount;
         balanceOf[msg.sender] += amount;
