@@ -6,7 +6,7 @@ import "./ERC20.sol";
 
 contract GT is ERC20{
 
-    uint public lastMint;
+    uint private lastMint;
 
     constructor() {
         name = "Game Token";
