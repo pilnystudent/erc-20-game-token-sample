@@ -25,6 +25,6 @@ contract GT is ERC20{
     }
 
     function bounty() public view returns(uint){
-        return (1*1e18 + totalSupply/1e9) * (block.timestamp - lastMint);
+        return block.timestamp - lastMint;
     }
 }
